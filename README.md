@@ -1,41 +1,41 @@
 <!-- Please do not change this html logo with link -->
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
-# Update the title for atmega328p-discrete-pid-controller-studio here
+# Discrete PIC Controller on tinyAVR and megaAVR Devices
 
-<!-- This is where the introduction to the example goes, including mentioning the peripherals used -->
+This repository describes a simple implementation of a discrete Proportional- Integral-Derivative (PID) controller. 
+When working with applications where control of the system output due to changes in the reference value or state is needed, implementation of a control algorithm may be necessary. Examples of such applications are motor control, control of temperature, pressure, flow rate, speed, force, or other variables. The PID controller can be used to control any measurable variable, as long as this variable can be affected by manipulating some other process variables. Many control solutions have been used over the time, but the PID controller has become the ‘industry standard’ due to its simplicity and good performance. 
+
+This code example is based on the document [AVR221 - Discrete PID Controller on tinyAVR and megaAVR devices](http://ww1.microchip.com/downloads/en/Appnotes/Atmel-2558-Discrete-PID-Controller-on-tinyAVR-and-megaAVR_ApplicationNote_AVR221.pdf), and will be performed on the ATmega328p device.
 
 ## Related Documentation
 
-<!-- Any information about an application note or tech brief can be linked here. Use unbreakable links!
-     In addition a link to the device family landing page and relevant peripheral pages as well:
-     - [AN3381 - Brushless DC Fan Speed Control Using Temperature Input and Tachometer Feedback](https://microchip.com/00003381/)
-     - [PIC18F-Q10 Family Product Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family) -->
+- [AVR221 - Discrete PID Controller on tinyAVR and megaAVR devices](http://ww1.microchip.com/downloads/en/Appnotes/Atmel-2558-Discrete-PID-Controller-on-tinyAVR-and-megaAVR_ApplicationNote_AVR221.pdf)
+- [ATmega328p Device Page](https://www.microchip.com/wwwproducts/en/ATmega328p)
 
 ## Software Used
 
-<!-- All software used in this example must be listed here. Use unbreakable links!
-     - MPLAB® X IDE 5.30 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-     - MPLAB® XC8 2.10 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-     - MPLAB® Code Configurator (MCC) 3.95.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - MPLAB® Code Configurator (MCC) Device Libraries PIC10 / PIC12 / PIC16 / PIC18 MCUs [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - Microchip PIC18F-Q Series Device Support (1.4.109) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/) -->
+- [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) 7.0.2397 or later
+- [ATmega DFP](http://packs.download.atmel.com/) 1.4.351 or later
+- AVR/GNU C Compiler (Built-in compiler) 5.4.0 or later
+
 
 ## Hardware Used
 
-<!-- All hardware used in this example must be listed here. Use unbreakable links!
-     - PIC18F47Q10 Curiosity Nano [(DM182029)](https://www.microchip.com/Developmenttools/ProductDetails/DM182029)
-     - Curiosity Nano Base for Click boards™ [(AC164162)](https://www.microchip.com/Developmenttools/ProductDetails/AC164162)
-     - POT Click board™ [(MIKROE-3402)](https://www.mikroe.com/pot-click) -->
-
-## Setup
-
-<!-- Explain how to connect hardware and set up software. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
+- [ATmega328p](https://www.microchip.com/wwwproducts/en/ATmega328p)
+- Customboard
+- Alternatively the [ATmega Xplained Mini](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/ATMEGA328P-XMINI) can be used
 
 ## Operation
 
-<!-- Explain how to operate the example. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
+1. Connect the board to the PC.
 
-## Summary
+2. Download the zip file or clone the example to get the source code.
 
-<!-- Summarize what the example has shown -->
+3. Open the .atsln file with Atmel Studio.
+
+4. Build the solution and program the device. Press *Start without debugging* or use CTRL+ALT+F5 hotkeys to run the application for programming the device.
+
+## Conclusion
+
+This code example has illustrated how to create a simple PID controller for tinyAVR and megaAVR devices from Microchip.
