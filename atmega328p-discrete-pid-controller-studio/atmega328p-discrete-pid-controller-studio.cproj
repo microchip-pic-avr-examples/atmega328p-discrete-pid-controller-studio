@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>AVR221DiscretePIDController</AssemblyName>
-    <Name>AVR221DiscretePIDController</Name>
-    <RootNamespace>AVR221DiscretePIDController</RootNamespace>
+    <AssemblyName>atmega328p-discrete-pid-controller-studio</AssemblyName>
+    <Name>atmega328p-discrete-pid-controller-studio</Name>
+    <RootNamespace>atmega328p-discrete-pid-controller-studio</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
