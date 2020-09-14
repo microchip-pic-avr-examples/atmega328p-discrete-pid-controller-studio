@@ -1,0 +1,70 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.studio.project.atmega328p-discrete-pid-controller-studio",
+        "version": "1.0.0",
+        "displayName": "Discrete PID Controller on tinyAVR and megaAVR Devices",
+        "projectName": "atmega328p-discrete-pid-controller-studio",
+        "shortDescription": "This repository describes a simple implementation of a discrete Proportional- Integral-Derivative (PID) controller for tinyAVR and megaAVR devices from Microchip.",
+        "ide": {
+            "name": "Studio",
+            "semverRange": ">=7.0.2397"
+        },
+        "compiler": [
+            {
+                "name": "AVR-GCC",
+                "semverRange": "^5.4.0"
+            }
+        ],
+        "dfp": {
+            "name": "ATmega_DFP",
+            "semverRange": "^1.4.351"
+        },
+        "configurator": {
+            "name": "START",
+            "semverRange": ">=1.7.360"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "ATmega328P",
+                "versionRange": "*"
+            }
+        },
+        "author": "Microchip",
+        "subcategories": [
+            "START",
+            [
+                "Peripherals",
+                "TC0"
+            ],
+            [
+                "Development Kit",          
+                "ATmega Xplained Mini"
+            ]
+        ],
+        "peripherals": [
+            "TC0"
+        ],
+        "keywords": [
+            "",
+            ""
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}

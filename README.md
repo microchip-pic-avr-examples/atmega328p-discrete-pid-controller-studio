@@ -1,7 +1,7 @@
 <!-- Please do not change this html logo with link -->
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
-# Discrete PIC Controller on tinyAVR and megaAVR Devices
+# Discrete PID Controller on tinyAVR and megaAVR Devices
 
 This repository describes a simple implementation of a discrete Proportional- Integral-Derivative (PID) controller. 
 When working with applications where control of the system output due to changes in the reference value or state is needed, implementation of a control algorithm may be necessary. Examples of such applications are motor control, control of temperature, pressure, flow rate, speed, force, or other variables. The PID controller can be used to control any measurable variable, as long as this variable can be affected by manipulating some other process variables. Many control solutions have been used over the time, but the PID controller has become the ‘industry standard’ due to its simplicity and good performance. 
