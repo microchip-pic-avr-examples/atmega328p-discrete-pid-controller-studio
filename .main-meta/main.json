@@ -45,15 +45,13 @@
             ],
             [
                 "Development Kit",          
-                "ATmega Xplained Mini"
+                "ATmega328P Xplained Mini"
             ]
         ],
         "peripherals": [
             "TC0"
         ],
         "keywords": [
-            "",
-            ""
         ],
         "additionalData": {
             "longDescription": {
